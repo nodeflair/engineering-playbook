@@ -11,4 +11,6 @@ Please follow these naming conventions
 - `debt/scope-of-things`. Use this when there are purely code enhancements or refactoring to do.
 
 ## Resources
+
+### React 
 React useEffect complete guide: https://overreacted.io/a-complete-guide-to-useeffect/
