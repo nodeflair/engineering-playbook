@@ -49,6 +49,17 @@ Business logic is defined as steps that needs to be taken to conform data and in
 
 If you find yourself writing 50 lines of code to handle business logic in the controller (for Rails) or in the component (in React) then likely you need to refactor these into a helper function.
 
+### Bear in mind your Source Of Truth
+
+When you find yourself having to set magic constants or hardcode a list of information, always ask yourself if is that a new source of truth or has it existed somewhere. 
+
+If it has existed somewhere, use the same source of truth. If the shape doesn't fit exactly, you can write a helper that conforms the data shape.
+
+**Absolutely do not** create duplicate sources of truth. This makes it very very hard to refactor code as we do not know where the single source of truth is so we don't know what breaks the system.
+
+Ideally, source of truth should originate deep from the system, in this case in the form of a Rails API. If that is not possible, consolidate the source of truth in the javascript `constants` folder.
+
+
 
 ## Resources
 
