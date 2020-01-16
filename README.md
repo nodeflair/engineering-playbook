@@ -59,7 +59,15 @@ If it has existed somewhere, use the same source of truth. If the shape doesn't 
 
 Ideally, source of truth should originate deep from the system, in this case in the form of a Rails API. If that is not possible, consolidate the source of truth in the javascript `constants` folder.
 
+### When dealing with large and deep state shapes, `useReducer`.
 
+Refer to this article https://matthamlin.me/2019/february/why-you-should-useReducer
+
+### Functional components + large state shapes => disaster
+
+If you have to use functional components, then you should not have large state shapes.
+If you need to deal with validations and logic, then you should exclusively use React class components.
+Even though you can use React Hooks with functional components, treat them as _escape hatches_. 
 
 ## Resources
 
