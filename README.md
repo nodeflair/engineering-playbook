@@ -63,7 +63,7 @@ Ideally, source of truth should originate deep from the system, in this case in 
 
 Refer to this article https://matthamlin.me/2019/february/why-you-should-useReducer
 
-### Functional components + large state shapes => disaster
+### Functional components + large state shapes + liberal use of hooks = Disaster 🤯
 
 If you have to use functional components, then you should not have large state shapes.
 If you need to deal with validations and logic, then you should exclusively use React class components.
