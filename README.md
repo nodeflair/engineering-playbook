@@ -45,6 +45,7 @@ Please follow the format below as much as possible when submitting a ticket for 
 Business logic is defined as steps that needs to be taken to conform data and information to fit our business needs. For example:
 - Fetching specific multiple pieces of data from the database, transforming the data and before displaying in the view layer.
 - When creating a resource, have to manipulate other data
+- [More info here](https://en.wikipedia.org/wiki/Business_logic) 
 
 If you find yourself writing 50 lines of code to handle business logic in the controller (for Rails) or in the component (in React) then likely you need to refactor these into a helper function.
 
