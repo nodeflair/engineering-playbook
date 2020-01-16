@@ -24,6 +24,18 @@ Please follow the format below as much as possible when submitting a ticket for 
 - Expected result
   - Give a brief descripition of what is expected to happen.
 
+## Tooling
+
+- Tickets, issues and feature requests
+  - Jira
+- Code repo, pull requests, code review
+  - Github 
+- Continuous integration & testing
+  - AWS Elastic Beanstalk
+- Routing and DNS
+  - AWS Route 53
+
+
 ## Resources
 
 ### React 
